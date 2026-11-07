@@ -1,0 +1,77 @@
+学生成绩管理系统 A
+输入 help 查看命令，quit 退出。数据目录：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\manual\data
+登录成功：stu1（student）
+学生成绩报表 | 生成时间 2026-09-20 17:28:47
+学号 S001 姓名 张三 性别 男 年级 2025 班级 C1 联系方式 13800000001
+MATH 高等数学 成绩 90.00 班级排名 1
+CPP C++程序设计 成绩 80.00 班级排名 1
+ENG 大学英语 成绩 70.00 班级排名 2
+已录入 3/3 科，已录总分 240.00 已录平均分 80.00
+全科 GPA 3.00 总分排名 1 平均分排名 1
+学生成绩报表 | 生成时间 2026-09-20 17:28:47
+学号 S001 姓名 张三 性别 男 年级 2025 班级 C1 联系方式 13800000001
+MATH 高等数学 成绩 90.00 班级排名 1
+CPP C++程序设计 成绩 80.00 班级排名 1
+ENG 大学英语 成绩 70.00 班级排名 2
+已录入 3/3 科，已录总分 240.00 已录平均分 80.00
+全科 GPA 3.00 总分排名 1 平均分排名 1
+时间	账号	身份	操作
+2026-09-20 17:28:47	stu1	student	OK login stu1
+已导出：.\outputs\course_project\manual\data\reports\personal\personal_stu1_2026_09_20_17_28_47_1.txt
+已导出：.\outputs\course_project\manual\data\reports\personal\personal_stu1_2026_09_20_17_28_47_2.txt
+已退出登录
+登录成功：teacher1（teacher）
+学号	姓名	性别	年级	班级	联系方式
+S001	张三	男	2025	C1	13800000001
+S002	李四	女	2025	C1	13800000002
+S003	王五	男	2025	C1	13800000003
+学号	姓名	性别	年级	班级	联系方式
+S001	张三	男	2025	C1	13800000001
+学生成绩报表 | 生成时间 2026-09-20 17:28:47
+学号 S003 姓名 王五 性别 男 年级 2025 班级 C1 联系方式 13800000003
+MATH 高等数学 成绩 50.00 班级排名 3
+CPP C++程序设计 成绩 60.00 班级排名 3
+ENG 大学英语 成绩 未录入 班级排名 待齐全/未录入
+已录入 2/3 科，已录总分 110.00 已录平均分 55.00
+成绩待齐全：全科 GPA、总分与平均分排名暂不计算
+班级 C1 指标 total 顺序 desc（同分竞争排名，名次始终高分在前）
+名次	学号	姓名	数值
+1	S001	张三	240.00
+1	S002	李四	240.00
+待齐全/未录入	S003	王五
+班级 C1 指标 CPP 顺序 asc（同分竞争排名，名次始终高分在前）
+名次	学号	姓名	数值
+3	S003	王五	60.00
+1	S001	张三	80.00
+1	S002	李四	80.00
+班级 C1 学情统计 | 2026-09-20 17:28:47
+及格率分母为已录入人数；缺考或未录入不按 0 分计算。
+MATH 高等数学 在册=3 已录=3 未录=0 平均=66.67 最高=90.00 最低=50.00 及格=2 不及格=1 及格率=66.67%
+CPP C++程序设计 在册=3 已录=3 未录=0 平均=73.33 最高=80.00 最低=60.00 及格=3 不及格=0 及格率=100.00%
+ENG 大学英语 在册=3 已录=2 未录=1 平均=85.00 最高=100.00 最低=70.00 及格=2 不及格=0 及格率=100.00%
+已生成图表：.\outputs\course_project\manual\data\reports\charts\charts_C1_MATH_2026_09_20_17_28_47_3.svg
+已持久化统计：.\outputs\course_project\manual\data\reports\charts\charts_C1_MATH_2026_09_20_17_28_47_3.txt
+已导出：.\outputs\course_project\manual\data\reports\students\students_C1_2026_09_20_17_28_47_4.txt
+已导出：.\outputs\course_project\manual\data\reports\scores\scores_C1_2026_09_20_17_28_47_5.txt
+已导出：.\outputs\course_project\manual\data\reports\ranking\ranking_C1_total_2026_09_20_17_28_47_6.txt
+已导出：.\outputs\course_project\manual\data\reports\statistics\statistics_C1_2026_09_20_17_28_47_7.txt
+已导出：.\outputs\course_project\manual\data\reports\logs\logs_teacher1_2026_09_20_17_28_47_8.txt
+已退出登录
+登录成功：admin（admin）
+admin admin - 启用
+teacher1 teacher T001 启用
+teacher2 teacher T002 启用
+stu1 student S001 启用
+stu2 student S002 启用
+stu3 student S003 启用
+stu4 student S004 启用
+T001 陈老师 13900000001 班级 C1
+T002 刘老师 13900000002 班级 C2
+C1 软件一班 2025
+C2 软件二班 2025
+MATH 高等数学 学分 1.00
+CPP C++程序设计 学分 1.00
+ENG 大学英语 学分 1.00
+备份已保存：.\outputs\course_project\manual\data\backups\backup_2026_09_20_17_28_47_9.db
+已导出：.\outputs\course_project\manual\data\reports\logs\logs_admin_2026_09_20_17_28_47_10.txt
+已退出登录

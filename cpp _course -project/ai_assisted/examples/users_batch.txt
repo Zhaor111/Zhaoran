@@ -1,0 +1,4 @@
+# 角色 账号 密码 编号 姓名 班级 [性别 年级 联系方式]
+student stu5 Stu@123 S005 "孙同学" C1 女 2025 "未填写"
+student stu6 Stu@123 S006 "钱同学" C2 男 2025 "未填写"
+teacher teacher3 Teach@123 T003 "李老师" C1,C2

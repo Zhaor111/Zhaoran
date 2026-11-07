@@ -1,0 +1,75 @@
+PASS SHA256 empty vector
+PASS SHA256 abc vector
+PASS SHA256 multi block vector
+PASS wrong login rejected
+PASS student own profile
+PASS student no peer grades
+PASS student cannot edit own grade
+PASS student cannot edit own profile
+PASS student cannot list class
+PASS student cannot see class ranks
+PASS student cannot see class stats
+PASS teacher scope read denied
+PASS teacher scope write denied
+PASS teacher cannot administer
+PASS teacher cannot create accounts
+PASS teacher cannot transfer class
+PASS teacher can edit scoped profile
+PASS fuzzy search
+PASS demo total mean GPA
+PASS missing scores excluded total rank
+PASS competition ranks 1 1 3
+PASS ascending preserves academic rank
+PASS decimal sum reversed order tie
+PASS decimal mean reversed order tie
+PASS individual rank privacy
+PASS subject statistics denominator
+PASS NaN numeric rejected
+PASS infinity rejected
+PASS above upper bound rejected
+PASS below lower bound rejected
+PASS numeric trailing junk rejected
+PASS atomic duplicate import
+PASS atomic scope import
+PASS atomic invalid import
+PASS valid BOM CRLF import
+PASS grade 0 and 100 accepted
+PASS grade delete requires confirmation
+PASS grade delete and reenter
+PASS wrong old password rejected
+PASS password change and re-login
+PASS admin resets all roles
+PASS password stored salted not plaintext
+PASS atomic user batch duplicates
+PASS atomic user batch missing class
+PASS create student teacher batch
+PASS disabled stale session rejected
+PASS atomic disable unknown account
+PASS cannot delete admin
+PASS user delete requires confirmation
+PASS delete student cascades grades
+PASS class create edit
+PASS class delete rejects linked records
+PASS class delete unused
+PASS subject CRUD and cascade
+PASS teacher edit class authorization refresh
+PASS student filtered export
+PASS class TXT export types
+PASS teacher export scope denied
+PASS chart and stats persistence
+PASS teacher log privacy
+PASS student login history privacy
+PASS student cannot read operation log
+PASS teacher cannot clear logs
+PASS logs never contain passwords
+PASS admin log query and export
+PASS teacher backup denied
+PASS backup has database and log
+PASS restore requires confirmation
+PASS corrupt restore leaves state intact
+PASS valid restore and audit retention
+PASS restart persists state
+PASS empty subject statistics safe
+PASS audit write failure states committed outcome
+PASS log clear confirmed remains auditable
+RESULT 74/74 passed

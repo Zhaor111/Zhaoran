@@ -1,0 +1,15 @@
+login stu1 Stu@123
+me
+grades
+grades MATH
+history
+logout
+login teacher1 Teach@123
+me
+catalog
+logout
+login admin Admin@123
+users
+catalog
+logout
+quit

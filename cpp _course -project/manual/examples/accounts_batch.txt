@@ -1,0 +1,10 @@
+# 在全新演示数据上以管理员执行 user-batch examples/accounts_batch.txt CONFIRM。
+# 删除账号不删除基础资料，因此可以在同一事务中重新创建。
+DELETE stu2
+DELETE teacher2
+ADD stu2 Stu@123 student S002
+ADD teacher2 Teach@123 teacher T002
+DISABLE stu2 true
+DISABLE teacher2 true
+DISABLE stu2 false
+DISABLE teacher2 false

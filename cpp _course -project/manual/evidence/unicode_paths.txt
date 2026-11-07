@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "checks": 6,
+  "scenario": "Windows Unicode argv: Chinese names and spaces for both --data and --script",
+  "return_code": 0,
+  "output": "学生成绩管理系统 A\n输入 help 查看命令，quit 退出。数据目录：C:\\Users\\doitr\\AppData\\Local\\Temp\\课程 中文路径_fwpe4sg2\\数据 文件\n登录成功：teacher1（teacher）\n班级 C1 学情统计 | 2026-09-20 17:33:47\n及格率分母为已录入人数；缺考或未录入不按 0 分计算。\nENG 大学英语 在册=3 已录=2 未录=1 平均=85.00 最高=100.00 最低=70.00 及格=2 不及格=0 及格率=100.00%\n已生成图表：C:\\Users\\doitr\\AppData\\Local\\Temp\\课程 中文路径_fwpe4sg2\\数据 文件\\reports\\charts\\charts_C1_MATH_2026_09_20_17_33_47_1.svg\n已持久化统计：C:\\Users\\doitr\\AppData\\Local\\Temp\\课程 中文路径_fwpe4sg2\\数据 文件\\reports\\charts\\charts_C1_MATH_2026_09_20_17_33_47_1.txt\n已退出登录\n"
+}

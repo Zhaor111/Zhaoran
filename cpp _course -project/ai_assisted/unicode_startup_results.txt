@@ -1,0 +1,33 @@
+PASS Unicode and space --data directory created at exact requested path
+PASS Student login / UTF-8 profile / grade query / exit
+PASS Restart loads same Unicode directory / administrator query / exit
+PATH C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\work\ai_unicode_startup\中文 数据目录_19e82957
+
+学生成绩管理系统 B | 模拟 AI 为主 + 人工辅助
+输入 help 查看完整中文指令；数据目录：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\work\ai_unicode_startup\中文 数据目录_19e82957
+[未登录]> 登录成功。
+[stu1]> 账号：stu1；角色：student
+学号	账号	姓名	性别	年级	班级	联系方式
+S001	stu1	张三	男	2025	C1	未填写
+[stu1]> 学生：S001 张三；班级：C1
+科目	名称	成绩
+CPP	C++程序设计	80.00
+ENG	英语	70.00
+MATH	高等数学	90.00
+已录/应录：3/3；状态：完整
+已录总分：240.00；已录均分：80.00；已录科目平均 GPA：3.00
+[stu1]> 学生成绩管理系统 B | 模拟 AI 为主 + 人工辅助
+输入 help 查看完整中文指令；数据目录：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\work\ai_unicode_startup\中文 数据目录_19e82957
+[未登录]> 登录成功。
+[admin]> 账号	角色	状态	关联编号
+admin	admin	启用	-
+stu1	student	启用	S001
+stu2	student	启用	S002
+stu3	student	启用	S003
+stu4	student	启用	S004
+teacher1	teacher	启用	T001
+teacher2	teacher	启用	T002
+教师信息：
+T001	teacher1	陈老师	C1,
+T002	teacher2	周老师	C2,
+[admin]> 

@@ -1,0 +1,1 @@
+SELF-TEST PASS: 128 checks; isolated temporary data.

@@ -1,0 +1,17 @@
+login stu1 Stu@123
+me
+scores
+history
+logout
+login teacher1 Teach@123
+me
+classes
+subjects
+logout
+login admin Admin@123
+users
+teachers
+classes
+subjects
+logout
+quit

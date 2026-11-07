@@ -1,0 +1,97 @@
+学生成绩管理系统 B | 模拟 AI 为主 + 人工辅助
+输入 help 查看完整中文指令；数据目录：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\ai_assisted\data
+[未登录]> 登录成功。
+[stu1]> 账号：stu1；角色：student
+学号	账号	姓名	性别	年级	班级	联系方式
+S001	stu1	张三	男	2025	C1	未填写
+[stu1]> 学生：S001 张三；班级：C1
+科目	名称	成绩
+CPP	C++程序设计	80.00
+ENG	英语	70.00
+MATH	高等数学	90.00
+已录/应录：3/3；状态：完整
+已录总分：240.00；已录均分：80.00；已录科目平均 GPA：3.00
+[stu1]> 已录/应录：3/3；状态：完整
+已录总分：240.00；已录均分：80.00；已录科目平均 GPA：3.00
+班内降序竞争排名：
+total：1 / 2 名参排学生
+mean：1 / 2 名参排学生
+CPP：1 / 3 名参排学生
+ENG：2 / 2 名参排学生
+MATH：1 / 3 名参排学生
+[stu1]> 已保存：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\ai_assisted\data\reports\personal\S001_CPP_2026_09_20_17_30_17.txt
+[stu1]> 时间	账号	身份	操作
+2026-09-20 17:30:17	stu1	student	LOGIN success
+[stu1]> 已退出登录。
+[未登录]> 登录成功。
+[teacher1]> 学号	账号	姓名	性别	年级	班级	联系方式
+S001	stu1	张三	男	2025	C1	未填写
+S002	stu2	李四	女	2025	C1	未填写
+S003	stu3	王五	男	2025	C1	未填写
+[teacher1]> 学号	账号	姓名	性别	年级	班级	联系方式
+S001	stu1	张三	男	2025	C1	未填写
+[teacher1]> 学号	姓名	CPP	ENG	MATH	已录总分	已录均分	已录 GPA	状态
+S001	张三	80.00	70.00	90.00	240.00	80.00	3.00	完整
+S002	李四	80.00	100.00	60.00	240.00	80.00	2.67	完整
+S003	王五	60.00	未录入	50.00	110.00	55.00	0.50	缺成绩
+[teacher1]> 班级：C1；指标：total；降序显示（高分在前）；同分竞争排名 1,1,3
+名次	学号	姓名	数值
+1	S001	张三	240.00
+1	S002	李四	240.00
+不参与	S003	王五	缺成绩
+[teacher1]> 班级：C1；指标：CPP；升序显示（低分在前，保留降序学业名次）；同分竞争排名 1,1,3
+名次	学号	姓名	数值
+3	S003	王五	60.00
+1	S001	张三	80.00
+1	S002	李四	80.00
+[teacher1]> 班级：C1；及格线 60；缺成绩排除出均分、极值和及格率分母
+科目	班级人数	已录人数	缺成绩	均分	最高	最低	及格	不及格	已录及格率
+CPP	3	3	0	73.33	80.00	60.00	3	0	100.00%
+ENG	3	2	1	85.00	100.00	70.00	2	0	100.00%
+MATH	3	3	0	66.67	90.00	50.00	2	1	66.67%
+[teacher1]> 已保存：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\ai_assisted\data\reports\charts\C1_MATH_2026_09_20_17_30_17.html
+[teacher1]> 已保存：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\ai_assisted\data\reports\students\C1_2026_09_20_17_30_17.txt
+[teacher1]> 已保存：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\ai_assisted\data\reports\grades\C1_2026_09_20_17_30_17.txt
+[teacher1]> 已保存：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\ai_assisted\data\reports\rank\C1_CPP_asc_2026_09_20_17_30_17.txt
+[teacher1]> 已保存：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\ai_assisted\data\reports\stats\C1_2026_09_20_17_30_17.txt
+[teacher1]> 时间	账号	身份	操作
+2026-09-20 17:30:17	teacher1	teacher	LOGIN success
+2026-09-20 17:30:17	teacher1	teacher	READ students class=C1 query=
+2026-09-20 17:30:17	teacher1	teacher	READ students class=C1 query=张
+2026-09-20 17:30:17	teacher1	teacher	READ class grades=C1
+2026-09-20 17:30:17	teacher1	teacher	READ ranking class=C1 metric=total desc
+2026-09-20 17:30:17	teacher1	teacher	READ ranking class=C1 metric=CPP asc
+2026-09-20 17:30:17	teacher1	teacher	READ statistics class=C1
+2026-09-20 17:30:17	teacher1	teacher	READ statistics class=C1
+2026-09-20 17:30:17	teacher1	teacher	EXPORT chart class=C1 subject=MATH
+2026-09-20 17:30:17	teacher1	teacher	READ students class=C1 query=
+2026-09-20 17:30:17	teacher1	teacher	EXPORT students class=C1
+2026-09-20 17:30:17	teacher1	teacher	READ class grades=C1
+2026-09-20 17:30:17	teacher1	teacher	EXPORT grades class=C1
+2026-09-20 17:30:17	teacher1	teacher	READ ranking class=C1 metric=CPP asc
+2026-09-20 17:30:17	teacher1	teacher	EXPORT rank class=C1
+2026-09-20 17:30:17	teacher1	teacher	READ statistics class=C1
+2026-09-20 17:30:17	teacher1	teacher	EXPORT stats class=C1
+[teacher1]> 已退出登录。
+[未登录]> 登录成功。
+[admin]> 账号	角色	状态	关联编号
+admin	admin	启用	-
+stu1	student	启用	S001
+stu2	student	启用	S002
+stu3	student	启用	S003
+stu4	student	启用	S004
+teacher1	teacher	启用	T001
+teacher2	teacher	启用	T002
+教师信息：
+T001	teacher1	陈老师	C1,
+T002	teacher2	周老师	C2,
+[admin]> 科目（统一选修、每科 1 学分）：
+CPP	C++程序设计
+ENG	英语
+MATH	高等数学
+可访问班级：
+C1	计算机一班
+C2	计算机二班
+[admin]> 已保存：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\ai_assisted\data\backups\school_2026_09_20_17_30_17.bak
+[admin]> 已保存：C:\Users\doitr\Documents\Codex\2026-09-20\c-n-1-c-docx-c\outputs\course_project\ai_assisted\data\reports\logs\admin_2026_09_20_17_30_17.txt
+[admin]> 
